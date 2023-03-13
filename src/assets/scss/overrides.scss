@@ -1,0 +1,19 @@
+#app {
+  #per-page {
+    .v-text-field__details {
+      display: none;
+    }
+    .v-input__slot {
+      margin: 0;
+      box-shadow: none;
+      border: 1px solid $border-color;
+    }
+    .v-input__control {
+      min-height: 42px;
+    }
+    .col {
+      max-width: 90px;
+      padding: 0;
+    }
+  }
+}

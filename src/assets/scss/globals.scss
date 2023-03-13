@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Exo2";
+  src:
+      url("~@/assets/fonts/exo2/exo2.woff2") format("woff2"),
+      url("~@/assets/fonts/exo2/exo2.woff") format("woff"),
+      url("~@/assets/fonts/exo2/exo2.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Exo2";
+  src:
+      url("~@/assets/fonts/exo2/exo2medium.woff2") format("woff2"),
+      url("~@/assets/fonts/exo2/exo2medium.woff") format("woff"),
+      url("~@/assets/fonts/exo2/exo2medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src:
+      url("~@/assets/fonts/montserrat/montserrat-semibold.woff") format("woff"),
+      url("~@/assets/fonts/montserrat/montserrat-semibold.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0, .2);
+  cursor: pointer;
+  z-index: 9;
+}
+
+#workspace {
+  padding-left: 60px;
+}
+
+h1, h2, h3, h4 {
+  font-family: $title-font;
+}
+
+h3 {
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+* {
+  font-family: $main-font;
+}
